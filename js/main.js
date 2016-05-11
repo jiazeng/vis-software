@@ -26,3 +26,14 @@ $(function() {
 		})			
 	})
 })
+
+// parent - the parent node, or null for the root.
+// children - the array of child nodes, or null for leaf nodes.
+// value - the node value, as returned by the value accessor.
+// depth - the depth of the node, starting at 0 for the root.
+// area - the computed pixel area of this node. (TODO: remove?)
+// x - the minimum x-coordinate of the node position.
+// y - the minimum y-coordinate of the node position.
+// z - the orientation of this cell’s subdivision, if any. (TODO: remove?)
+// dx - the x-extent of the node position.
+// dy - the y-extent of the node position.
