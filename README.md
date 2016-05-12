@@ -1,5 +1,3 @@
-# vis-software
-
 # TreeMap.js API Reference
 This is a reusable library for creating simple TreeMaps
 
@@ -23,8 +21,16 @@ var chartWrapper = d3.select('#vis')
 ```
 
 There are several attributes(method) that can be changed:
-    color, fontSize, width, height
-To adjust/update the attributes of the TreeMap:
+- color()
+This method allows user to adjust the color of the tree node, the default is set to ***d3.scale.category10()***. User can set the nodes to one color as well as to a color catetory such as the default.
+
+- fontSize()
+This method allows user to adjust the font size for the labling text on the graph. The default is set to 9;
+
+- width() & height()
+These two method allows user to adjust the width and height of the div size. 
+
+To adjust/update the attributes (methods) of the TreeMap:
     treemap.[method name](newValue)
 };
 
